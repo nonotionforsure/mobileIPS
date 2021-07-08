@@ -10,18 +10,18 @@ import {
 } from "./style";
 import { Button, ButtonText } from "../../components";
 
-export default function Login() {
+export default function Cadastrar() {
     const navigation = useNavigation();
-    function handleCadastrar() {
-        navigation.navigate("Cadastrar");
+    function handleLogin() {
+        navigation.navigate("Login");
     }
-    function handleMenu() {
-        navigation.navigate("Menu");
+    function handleHome() {
+        navigation.navigate("Home");
     }
     return (
         <Container>
             <Form>
-                <Title>Login</Title>
+                <Title>Cadastrar</Title>
                 <FormRow>
                     <Label>E-mail</Label>
                     <TextInput placeholder="e-mail"></TextInput>
@@ -30,8 +30,8 @@ export default function Login() {
                     <Label>Senha</Label>
                     <TextInput placeholder="senha"></TextInput>
                 </FormRow>
-                <Button title="Login" onPress={handleMenu} />
-                <ButtonText title="Cadastre-se" onPress={handleCadastrar} />
+                <Button title="Login" onPress={handleHome} />
+                <ButtonText title="Login" onPress={handleLogin} />
             </Form>
         </Container>
     );

@@ -13,8 +13,7 @@ export default function Home() {
       <Image source={require("../../assets/splash.png")} />
       <Text>Permaneça conectado em qualquer lugar do mundo!</Text>
       <Text>Colecione momentos, lugares e recordações!</Text>
-      <Button onPress={handleLogin} title="Iniciar" />
-      {/* o que ta escrito no botão */}
+      <Button onPress={handleLogin} title="Iniciar" />{/* o que ta escrito no botão */}
     </Container>
   );
 }
