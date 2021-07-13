@@ -11,7 +11,7 @@ const sizeVariations = {
 }
 
 export const ButtonStyle = styled.TouchableOpacity<ButtonStyleProps>`
-  background-color: ${colors.brown};
+  background-color: ${colors.verdinho};
   font-size: 18px;
   border-radius: 5px;
   margin: 10px;

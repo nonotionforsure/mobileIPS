@@ -7,18 +7,13 @@ import {
 } from "./style";
 import { Button, ButtonText } from "../../components";
 
-export default function Dicas() {
+export default function Documentos() {
     const navigation = useNavigation();
 
     return (
         <Container>
             <View>
-                <Text>
-
-                    1 -Contrate um seguro de viagem
-                    Sempre faça um seguro de viagem! Parece óbvio, mas muitas pessoas não se incomodam com isso e
-                    acabam perdendo muito dinheiro quando as coisas dão errado…
-
+                <Text> documentos pipi1
                 </Text>
             </View>
         </Container>

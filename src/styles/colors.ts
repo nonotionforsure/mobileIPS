@@ -5,5 +5,7 @@ export default {
     verdinho: "rgba(146, 206, 141, 0.51)",
     gray: '#C6C6C6',
     blue: '#413F92',
-    red: '#C82929'
+    red: '#C82929',
+    verdegeral: '#EEEAD6',
+    verde: '#92CE8D'
 }

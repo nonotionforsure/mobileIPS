@@ -8,7 +8,7 @@ export const Container = styled.View`
 `
 export const View = styled.View`
   background-color: ${colors.verdinho};
-  margin-top: 200px;
+  margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 10px;
   margin-left: 10px;
@@ -17,5 +17,4 @@ export const View = styled.View`
 export const Text = styled.Text`
   font-size: 18px;
   color: ${colors.white};
-
 `
