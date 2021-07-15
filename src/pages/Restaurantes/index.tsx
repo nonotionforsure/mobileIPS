@@ -4,21 +4,30 @@ import {
     Container,
     View,
     Text,
-    TextInput
+    TextInput,
+    Title,
 } from "./style";
+
+
 
 export default function Restaurantes() {
     const navigation = useNavigation();
     return (
         <Container>
-            <Text>Local:</Text>
+            <Title>Local:</Title>
             <TextInput></TextInput>
             <View>
                 <Text>
                     Opções:
-                    Tripadvisor
-                    Booking
-                    Hoteis.com
+                </Text>
+                <Text>
+                    -Tripadvisor
+                </Text>
+                <Text>
+                    -Booking
+                </Text>
+                <Text>
+                    -Hoteis.com
                 </Text>
             </View>
         </Container>

@@ -5,7 +5,7 @@ import {
     View,
     Text
 } from "./style";
-import { Button, ButtonText } from "../../components";
+
 
 export default function Documentos() {
     const navigation = useNavigation();
@@ -13,7 +13,14 @@ export default function Documentos() {
     return (
         <Container>
             <View>
-                <Text> documentos pipi1
+                <Text>
+                    Carteira de Identidade.
+                    Passaporte.
+                    Carteira Nacional de Habilitação (modelo físico com fotografia);
+                    A CNH-e (Carteira Nacional de Habilitação Eletrônica);
+                    Carteira de Trabalho;
+                    DNI (Documento Nacional de Identidade);
+                    Título de Eleitor Eletrônico
                 </Text>
             </View>
         </Container>

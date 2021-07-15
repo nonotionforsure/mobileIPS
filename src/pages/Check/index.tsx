@@ -7,29 +7,31 @@ import {
     TextInput,
     Title,
     Form,
-    Perfil,
+    Text,
 } from "./style";
 import { Button, ButtonText } from "../../components";
+import { Image } from "react-native";
 
-export default function Cadastrar() {
+export default function Check() {
     const navigation = useNavigation();
+
     function handleHome() {
         navigation.navigate("Home");
     }
     return (
         <Container>
-            <Perfil source={require("../../../assets/perfil.png")} />
             <Form>
-                <Title>Editar Perfil</Title>
+                <Title>Check-List</Title>
                 <FormRow>
-                    <Label>E-mail:</Label>
-                    <TextInput placeholder="e-mail"></TextInput>
+                    <Label>local:</Label>
+                    <TextInput placeholder="Elói Mendes"></TextInput>
                 </FormRow>
                 <FormRow>
-                    <Label>Senha:</Label>
-                    <TextInput placeholder="senha"></TextInput>
+                    <Label>Imagem:</Label>
+                    <Text> Inpur para fotos</Text>
                 </FormRow>
                 <Button title="Salvar" onPress={handleHome} />
+
             </Form>
         </Container>
     );

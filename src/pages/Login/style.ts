@@ -5,12 +5,13 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: beige;
 `
 export const Title = styled.Text`
   font-size: 36px;
   color: ${colors.black};
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 90px;
   text-align: center;
 `
 export const Form = styled.KeyboardAvoidingView``
@@ -28,6 +29,6 @@ export const TextInput = styled.TextInput`
   font-size: 18px;
   padding: 5px;
   margin-left: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   width: 50%;
 `

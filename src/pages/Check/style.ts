@@ -1,10 +1,6 @@
 import styled from 'styled-components/native'
 import colors from '../../styles/colors'
 
-export const Perfil = styled.Image`
-margin-top: 40px;
-`
-
 export const Container = styled.View`
   flex: 1;
   align-items: center;
@@ -15,7 +11,7 @@ export const Title = styled.Text`
   font-size: 36px;
   color: ${colors.black};
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   text-align: center;
 `
 export const Form = styled.KeyboardAvoidingView``
@@ -33,6 +29,10 @@ export const TextInput = styled.TextInput`
   font-size: 18px;
   padding: 5px;
   margin-left: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   width: 50%;
+`
+export const Text = styled.Text`
+  font-size: 18px;
+  color: ${colors.white};
 `

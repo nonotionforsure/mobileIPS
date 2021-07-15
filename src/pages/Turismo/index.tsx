@@ -4,7 +4,7 @@ import {
     Container,
     View,
     Text,
-    TextInput
+    TextInput,
 } from "./style";
 
 export default function Restaurantes() {
@@ -16,8 +16,14 @@ export default function Restaurantes() {
             <View>
                 <Text>
                     Opções:
+                </Text>
+                <Text>
                     Tripadvisor
+                </Text>
+                <Text>
                     Booking
+                </Text>
+                <Text>
                     Hoteis.com
                 </Text>
             </View>

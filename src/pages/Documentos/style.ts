@@ -5,6 +5,7 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: beige;
 `
 export const View = styled.View`
   background-color: ${colors.verdinho};

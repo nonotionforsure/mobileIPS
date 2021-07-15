@@ -7,6 +7,8 @@ const Stack = createStackNavigator();
 
 export default function LoginRoute() {
     return (
+
+
         <Stack.Navigator headerMode="none">
             <Stack.Screen name="PaginaInicial" component={Home} />
             <Stack.Screen name="Login" component={Login} />

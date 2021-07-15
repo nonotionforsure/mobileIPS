@@ -5,13 +5,15 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
+  background-color: beige;
 `
 export const View = styled.View`
   background-color: ${colors.verdinho};
-  margin-top: 200px;
-  margin-bottom: 0px;
+  margin-bottom: 300px;
   margin-right: 10px;
   margin-left: 10px;
+  border-radius: 10px;
+
 `
 
 export const Text = styled.Text`
