@@ -7,6 +7,7 @@ export { default as Documentos } from './Documentos'
 export { default as Hoteis } from './Hoteis'
 export { default as Restaurantes } from './Restaurantes'
 export { default as Turismo } from './Turismo'
-export { default as Check } from './Check'
-
-
+export { default as Experiencias } from './Experiencias'
+export { default as CartaoPostal } from './CartaoPostal'
+export { default as Camera } from './Camera'
+export { default as File } from './File'

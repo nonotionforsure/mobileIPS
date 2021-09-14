@@ -1,6 +1,8 @@
 import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import { Dicas, Perfil, Home, Documentos, Hoteis, Restaurantes, Turismo, Check } from "../pages";
+import { Dicas, Perfil, Home, Documentos, Hoteis, Restaurantes, Turismo, Experiencias, } from "../pages";
+import CartaoStack from "./foto.routes";
+
 import colors from "../styles/colors"
 
 
@@ -21,7 +23,8 @@ export default function App() {
             <Drawer.Screen name="Restaurantes" component={Restaurantes} />
             <Drawer.Screen name="Turismo" component={Turismo} />
             <Drawer.Screen name="Documentos Essenciais" component={Documentos} />
-            <Drawer.Screen name="Check-List" component={Check} />
+            <Drawer.Screen name="Experiencias" component={Experiencias} />
+            <Drawer.Screen name="CartaoPostal" component={CartaoStack} />
 
 
         </Drawer.Navigator>
