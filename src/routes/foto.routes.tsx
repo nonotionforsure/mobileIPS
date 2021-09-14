@@ -9,7 +9,7 @@ export default function LoginRoute() {
 
 
         <Stack.Navigator headerMode="none">
-            <Stack.Screen name="Cartao Postal" component={CartaoPostal} />
+            <Stack.Screen name="CartaoPostal" component={CartaoPostal} />
             <Stack.Screen name="Camera" component={Camera} />
             <Stack.Screen name="File" component={File} />
         </Stack.Navigator>

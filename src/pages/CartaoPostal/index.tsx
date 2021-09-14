@@ -3,9 +3,9 @@ import { useNavigation } from "@react-navigation/core";
 import { ButtonAction } from "../../components"
 import {
     Container,
-    Text,
     Title,
     Perfil,
+    TextInput,
 
 } from "./style";
 
@@ -21,13 +21,9 @@ export default function CartaoPostal() {
         <Container>
             <Perfil source={require("../../../assets/perfil.png")} />
             <Title>Lázaro Eduardo:</Title>
-            <Text>
-                Insira a mensagem de seu cartão postal:
-            </Text>
+            <TextInput placeholder="Insira a mensagem para seu cartão postal"></TextInput>
             <ButtonAction image={require("../../../assets/camera.png")} onPress={handleFoto} />
             <ButtonAction image={require("../../../assets/abrirarquivo.png")} onPress={handleFile} />
-
-
         </Container>
     );
 }

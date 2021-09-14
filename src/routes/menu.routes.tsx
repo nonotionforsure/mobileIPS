@@ -24,7 +24,11 @@ export default function App() {
             <Drawer.Screen name="Turismo" component={Turismo} />
             <Drawer.Screen name="Documentos Essenciais" component={Documentos} />
             <Drawer.Screen name="Experiencias" component={Experiencias} />
-            <Drawer.Screen name="CartaoPostal" component={CartaoStack} />
+            <Drawer.Screen
+                name="CartaoPostal"
+                component={CartaoStack}
+                options={{ title: "Cartão Postal" }}
+            />
 
 
         </Drawer.Navigator>
