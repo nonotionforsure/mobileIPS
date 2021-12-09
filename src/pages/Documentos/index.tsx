@@ -14,13 +14,13 @@ export default function Documentos() {
         <Container>
             <View>
                 <Text>
-                    Carteira de Identidade.
-                    Passaporte.
-                    Carteira Nacional de Habilitação (modelo físico com fotografia);
-                    A CNH-e (Carteira Nacional de Habilitação Eletrônica);
-                    Carteira de Trabalho;
-                    DNI (Documento Nacional de Identidade);
-                    Título de Eleitor Eletrônico
+                    <tr>Carteira de Identidade</tr>
+                    <tr>Passaporte</tr>
+                    <tr>Carteira Nacional de Habilitação (modelo físico com fotografia) </tr>
+                    <tr>A CNH-e (Carteira Nacional de Habilitação Eletrônica) </tr>
+                    <tr>Carteira de Trabalho; </tr>
+                    <tr>DNI (Documento Nacional de Identidade) </tr>
+                    <tr>Título de Eleitor Eletrônico</tr>
                 </Text>
             </View>
         </Container>

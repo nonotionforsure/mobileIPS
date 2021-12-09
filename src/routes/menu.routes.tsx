@@ -1,6 +1,6 @@
 import React from "react";
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import { Dicas, Perfil, Home, Documentos, Hoteis, Restaurantes, Turismo, Experiencias, } from "../pages";
+import { Dicas, Perfil, Home, Documentos, Hoteis, Restaurantes, Turismo, Experiencias, Sair, } from "../pages";
 import CartaoStack from "./foto.routes";
 
 import colors from "../styles/colors"
@@ -29,6 +29,7 @@ export default function App() {
                 component={CartaoStack}
                 options={{ title: "Cartão Postal" }}
             />
+            <Drawer.Screen name="Sair" component={Sair} />
 
 
         </Drawer.Navigator>

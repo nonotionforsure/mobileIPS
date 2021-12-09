@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "projeto1",
-    "slug": "projeto1",
+    "name": "Ps.Location",
+    "slug": "PsLocation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#EEEAD6"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,12 +17,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cefetmg.Ps.Location",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.cefetmg.Ps.Location",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#EEEAD6"
       }
     },
     "web": {
